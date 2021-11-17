@@ -1,0 +1,169 @@
+# depslib dependency file v1.0
+1618578698 source:c:\users\wilson\projeto do reidner\estudo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+	<string.h>
+	"Bibi.h"
+
+1617109023 source:c:\users\wilson\projeto do reidner\estudo\atribuicao.c
+
+1625837548 c:\users\wilson\projeto do reidner\estudo\bibi.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+	"Bibi.h"
+
+1625837574 source:c:\users\wilson\projeto do reidner\estudo\bibi.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+	"Bibi.h"
+
+1617109023 source:c:\users\wilson\projeto do reidner\estrutura de dados arvore\atribuicao.c
+
+1625837574 source:c:\users\wilson\projeto do reidner\estrutura de dados arvore\bibi.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+	"Bibi.h"
+
+1625837548 c:\users\wilson\projeto do reidner\estrutura de dados arvore\bibi.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+	"Bibi.h"
+
+1617112623 source:c:\users\wilson\projeto do reidner\tabela hash\atribuicao.c
+
+1625841174 source:c:\users\wilson\projeto do reidner\tabela hash\bibi.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+	"Bibi.h"
+
+1625841148 c:\users\wilson\projeto do reidner\tabela hash\bibi.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+	"Bibi.h"
+
+1635982892 source:c:\users\wilson\projeto do reidner\tabela hash\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+	<string.h>
+	"lista.h"
+	"Retangulo.h"
+
+1627687317 source:c:\users\wilson\projeto do reidner\tabela hash\tabelahash.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"TabelaHash.h"
+
+1627570328 c:\users\wilson\projeto do reidner\tabela hash\tabelahash.h
+
+1635983519 source:c:\users\wilson\projeto do reidner\tabela hash\lista.c
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"lista.h"
+
+1635979685 c:\users\wilson\projeto do reidner\tabela hash\lista.h
+
+1634306764 c:\users\wilson\projeto do reidner\tabela hash\listaencadeadasimples.h
+
+1635541781 source:c:\users\wilson\projeto do reidner\tabela hash\listaencadeadasimples.c
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"ListaEncadeadaSimples.h"
+
+1635344243 source:c:\users\wilson\projeto do reidner\tabela hash\listaduplamenteencadeada.c
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"ListaDuplamenteEncadeada.h"
+
+1635340979 c:\users\wilson\projeto do reidner\tabela hash\listaduplamenteencadeada.h
+
+1635953300 source:c:\users\wilson\projeto do reidner\tabela hash\retangulo.c
+	"Retangulo.h"
+	<stdio.h>
+	<stdlib.h>
+
+1635953300 c:\users\wilson\projeto do reidner\tabela hash\retangulo.h
+
+1617112623 source:c:\users\wilson\projeto do reidner\projeto 1\atribuicao.c
+
+1625841174 source:c:\users\wilson\projeto do reidner\projeto 1\bibi.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+	"Bibi.h"
+
+1625841148 c:\users\wilson\projeto do reidner\projeto 1\bibi.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+	"Bibi.h"
+
+1635344243 source:c:\users\wilson\projeto do reidner\projeto 1\listaduplamenteencadeada.c
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"ListaDuplamenteEncadeada.h"
+
+1635340979 c:\users\wilson\projeto do reidner\projeto 1\listaduplamenteencadeada.h
+
+1637180885 source:c:\users\wilson\projeto do reidner\projeto 1\listaencadeadasimples.c
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"ListaEncadeadaSimples.h"
+
+1637180975 c:\users\wilson\projeto do reidner\projeto 1\listaencadeadasimples.h
+
+1635953300 source:c:\users\wilson\projeto do reidner\projeto 1\retangulo.c
+	"Retangulo.h"
+	<stdio.h>
+	<stdlib.h>
+
+1635953300 c:\users\wilson\projeto do reidner\projeto 1\retangulo.h
+
+1627687317 source:c:\users\wilson\projeto do reidner\projeto 1\tabelahash.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"TabelaHash.h"
+
+1627570328 c:\users\wilson\projeto do reidner\projeto 1\tabelahash.h
+
+1637079813 source:c:\users\wilson\projeto do reidner\projeto 1\lista.c
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"lista.h"
+
+1637180975 c:\users\wilson\projeto do reidner\projeto 1\lista.h
+
+1637080025 source:c:\users\wilson\projeto do reidner\projeto 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+	<string.h>
+	"lista.h"
+	"Retangulo.h"
+
