@@ -1,59 +1,30 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "pilha.h"
-#include "calc.h"
-#define MAX 20
 
+#include <math.h>
+#include <string.h>
+#include "filadeints.h"
 
-
+#define N 100
 
 int main()
 {
 
 
 
-/*****************
-        Funciona
-****************/
 
-/*
-    char c;
-    float v;
-    Calc* calc;
-    // cria calculadora com precisão de impressão de duas casas decimais
+    Fila* f = criafila();
+    colocanafila(f,20.0);
+    colocanafila(f,20.8);
+    colocanafila(f,21.2);
+    colocanafila(f,24.3);
+    imprime(f);
+    printf("Primeiro elemento: %f\n", tiradafila(f));
+    printf("Segundo elemento: %f\n", tiradafila(f));
+    printf("Configuracao da fila:\n");
+    imprime(f);
+    libera(f);
 
-    calc = cria_calc("%.2f\n");
-    do
-    {
-        // le proximo caractere nao branco
-
-        scanf(" %c",&c);
-
-        // verifica se e' operador valido
-        if (c=='+' || c=='-' || c=='*' || c=='/')
-        {
-            operador(calc,c);
-        }
-        // devolve caractere lido e tenta ler número
-        else
-        {
-            ungetc(c,stdin);
-            if (scanf("%f",&v) == 1)
-                operando(calc,v);
-
-        }
-    }
-    while (c!='q');
-    libera_calc(calc);
-    */
-
-
-
-
-
-
-
-    system("pause");
 
     return 0;
 }
