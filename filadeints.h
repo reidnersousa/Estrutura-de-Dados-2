@@ -9,10 +9,10 @@ typedef struct fila Fila;
 Fila* criafila (void);
 
 //função que inserer um float na fila ; fila feita com vetor
-void colocanafila (Fila* f, float v);
+void colocanafila (Fila* f, int v);
 
 //função que retira um elemento da fila; fila feita com vetor
-float tiradafila (Fila* f);
+int tiradafila (Fila* f);
 //função que verifica se a fila esta vazia ;
 int filavazia (Fila* f);
 
