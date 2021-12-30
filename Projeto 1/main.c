@@ -1,88 +1,61 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
-#include <locale.h>
-#include <string.h>
-#include "lista.h"
-#include "Retangulo.h"
-
-/**8
-teste***/
-
-/**Ultima atualização 16/11/2021 13:26*/
-
-//Estrutura autorreferenciada
-
+#include "BuscaOrdenadacao.h"
+#include "BubbleSort.h"
 int main()
 {
-    int x;
-    inicializar();
+    int Vv[7]={23,4,67,-8,54,90,21};
 
 
-    struct produto p1= {112,"congelados","Frango","O frango possui carne de coloração branca",
-        "Setor Norte",111
-    };
+    int vet[10]={-8,-5,1,4,14,21,23,54,67,90};
 
-    struct produto p2= {50,"enlatados","Milho","Após abrir deve-se consumir dentro do perido de 30 dias",
-        "Setor Sul",28
-    };
+    struct aluno V[3]={{2,"EEE",9.5,7.8,8.5},
+                        {4,"Ricardo",7.5,8.7,6.8},
+                        {3,"ANA",5.7,6.1,7.5}};
+    if(buscaLinearNome(V,3,"EEE")!=1){
+        printf("RTH ok \n");
+    }
+    else{
+        printf("ERRRo\n");
+    }
 
-    struct produto p3= {30,"Vegetais","Maça","maça é um fruto de arvore macieria",
-        "Setor Leste",19
-    };
+    if(buscaBinaria(vet,10,14)!=1){
+        printf("OK\n");
+    }
+    else{
+        printf("ERRo\n");
+    }
 
-    struct produto p4= {333,"Produtos de Limpeza","Desinfetante",
-        "são substâncias que são usando na Limpeza",
-        "Setor Oeste",30
-    };
+    int lop[10]={23,4,67,-8,90,54,21};
+    if(bubbleSort1(lop,10)){
+        printf("OKOKOK");
+    }
+    else{
+        printf("ERRER3");
+    }
+    int i;
+    struct alunoVetor V1[3]={{2,"EEE",9.5,7.8,8.5},
+                        {4,"Ricardo",7.5,8.7,6.8},
+                        {3,"ANA",5.7,6.1,7.5}};
+    insertionStorNome(V1,3);
+    for(i=0;i<3;i++){
+        printf("%d) %s\n",V1[i].matricula,V1[i].nome);
+    }
 
+    int pl;
 
-    struct produto p5= {111,"arroz",NULL,NULL,NULL,NULL};
+    //qsort(lop,10,sizeof(int),comparaCrescente);
+   // qsort(V1,3,sizeof(struct alunoVetor),comparaNome);
+    for(pl=0;pl<4;pl++){
+        printf("%d) %s\n",V1[pl].matricula,V1[pl].nome);
+    }
 
-    Lista*pro1;
-    pro1=inicializaE();
-    printf("Primeiro\n");
-    // pro1=inserirProdutoTeste(pro1,p1);
+    for(pl=0;pl<10;pl++){
+        printf("Number = %d\n",lop[pl]);
+    }
 
-    //controleFuncionario(pro1,p1);
-
-    printf("\n\n proximo passo \n\n");
-    pro1=controleMestre(pro1,p1,p2);
-    /*Da erro aqui*/
-    //imprimeTodosProduto(pro1);
-/*da erro aqui */
-
-
-
-
-    /*
-        printf("Quinto\n");
-        pro1=inserirProdutoTeste(pro1,p5);
-        imprimeTodosProduto(pro1);
-    */
-
-
-    /*
-        buscaProdutoCodigo(pro1,333);
-        ComprarProduto(pro1,p1,10);
-
-        imprimeTodosProduto(pro1);
-    */
-    printf("\n\n");
-
-
-    system("pause");
+    printf("Fim da exeucao");
     return 0;
+}// fim da main
 
 
-}
-
-
-
-
-/*
-strlen Tamanho da string
-strcpy copiar uma string
-strcat concatenar duas string junta 2 string
-strcmp  comapaar duas string
-*/
